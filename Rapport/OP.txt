@@ -1,0 +1,229 @@
+LTspice 17.2.4 for MacOS
+Circuit: * /Users/francoisdesautels/Documents/GitHub/S6_APP2/APP/app2_prob_depart/app2depart.asc
+Start Time: Mon Jun  2 13:33:14 2025
+solver = Normal
+Maximum thread count: 14
+tnom = 27
+temp = 27
+method = modified trap
+CompressWinPoints = 1024
+WARNING: Less than two connections to node nc_01.  This node is used by v1.
+Instance "m:m1:1": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:m2:1": Width narrower than recommended for a level 3 MOSFET.
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:m1:1      d:m1:2      d:m1:dg     d:m1:sd     d:m2:1
+Model:   m1:dlim     m1:dlim     m1:dcgd     m1:dsub     m2:dlim
+Id:     -1.00e-04   -1.00e-04   -1.32e-11   -2.72e-10   -1.00e-04
+Vd:     -1.32e+01   -1.32e+01   -1.32e+01   -1.50e+01   -1.32e+01
+Req:     1.00e+12    1.00e+12    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    9.76e-11    1.19e-11    0.00e+00
+
+Name:    d:m2:2      d:m2:dg     d:m2:sd
+Model:   m2:dlim     m2:dcgd     m2:dsub
+Id:     -1.00e-04   -1.32e-11   -2.39e-10
+Vd:     -1.32e+01   -1.32e+01   -1.50e+01
+Req:     1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    1.17e-10    1.45e-11
+
+                        --- Bipolar Transistors ---
+Name:       q1a         q1b         q2b         q2a         q9
+Model:    2n3904      2n3904      2n3904      2n3904      2n3904
+Ib:       8.22e-06    8.22e-06    7.59e-06    7.59e-06    8.47e-06
+Ic:       2.50e-03    2.50e-03    2.49e-03    2.49e-03    2.60e-03
+Vbe:      6.79e-01    6.79e-01    6.77e-01    6.77e-01    6.80e-01
+Vbc:     -1.99e+00   -1.99e+00   -1.00e+01   -1.01e+01   -2.92e+00
+Vce:      2.67e+00    2.67e+00    1.07e+01    1.08e+01    3.60e+00
+BetaDC:   3.04e+02    3.04e+02    3.28e+02    3.28e+02    3.07e+02
+Gm:       9.60e-02    9.60e-02    9.58e-02    9.58e-02    9.98e-02
+Rpi:      3.15e+03    3.15e+03    3.41e+03    3.41e+03    3.06e+03
+Rx:       2.00e+01    2.00e+01    2.00e+01    2.00e+01    2.00e+01
+Ro:       4.08e+04    4.08e+04    4.42e+04    4.42e+04    3.96e+04
+Cbe:      4.64e-11    4.64e-11    4.63e-11    4.63e-11    4.77e-11
+Cbc:      2.61e-12    2.61e-12    1.66e-12    1.66e-12    2.37e-12
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   3.02e+02    3.02e+02    3.26e+02    3.27e+02    3.05e+02
+Cbx:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Ft:       3.12e+08    3.12e+08    3.18e+08    3.18e+08    3.17e+08
+
+Name:       q6a         q6b         q3a         q4          q3b
+Model:    2n3904      2n3904      2n3906      2n3906      2n3906
+Ib:       1.64e-05    1.69e-05   -1.25e-05   -1.10e-07   -1.25e-05
+Ic:       5.02e-03    5.01e-03   -2.49e-03   -2.48e-05   -2.49e-03
+Vbe:      6.97e-01    6.98e-01   -6.79e-01   -5.56e-01   -6.79e-01
+Vbc:     -3.09e+00    0.00e+00    5.56e-01    1.28e+01    6.13e-01
+Vce:      3.79e+00    6.98e-01   -1.24e+00   -1.33e+01   -1.29e+00
+BetaDC:   3.06e+02    2.96e+02    2.00e+02    2.26e+02    2.00e+02
+Gm:       1.92e-01    1.91e-01    9.57e-02    9.59e-04    9.57e-02
+Rpi:      1.58e+03    1.53e+03    2.07e+03    2.35e+05    2.08e+03
+Rx:       2.00e+01    2.00e+01    2.00e+01    2.00e+01    2.00e+01
+Ro:       2.06e+04    2.00e+04    4.04e+04    4.54e+06    4.04e+04
+Cbe:      8.00e-11    7.99e-11    4.94e-11    1.49e-11    4.94e-11
+Cbc:      2.33e-12    4.00e-12    3.75e-12    1.73e-12    3.69e-12
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   3.02e+02    2.93e+02    1.99e+02    2.25e+02    1.99e+02
+Cbx:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Ft:       3.70e+08    3.63e+08    2.86e+08    9.17e+06    2.87e+08
+
+Name:       q5b         q8          q5a         q7a         q7b
+Model:    2n3906      2n3906      2n3906      2n3906      2n3906
+Ib:      -1.54e-05   -2.25e-05   -6.82e-08   -2.53e-05   -2.27e-05
+Ic:      -3.55e-03   -5.01e-03   -1.54e-05   -4.99e-03   -5.03e-03
+Vbe:     -6.85e-01   -6.95e-01   -5.44e-01   -6.98e-01   -6.95e-01
+Vbc:      1.58e+01    1.25e+01    1.27e+01    0.00e+00    1.21e+01
+Vce:     -1.64e+01   -1.32e+01   -1.32e+01   -6.98e-01   -1.28e+01
+BetaDC:   2.30e+02    2.23e+02    2.25e+02    1.98e+02    2.22e+02
+Gm:       1.36e-01    1.92e-01    5.94e-04    1.91e-01    1.92e-01
+Rpi:      1.67e+03    1.15e+03    3.79e+05    1.02e+03    1.14e+03
+Rx:       2.00e+01    2.00e+01    2.00e+01    2.00e+01    2.00e+01
+Ro:       3.26e+04    2.25e+04    7.33e+06    2.00e+04    2.23e+04
+Cbe:      6.36e-11    8.32e-11    1.46e-11    8.29e-11    8.35e-11
+Cbc:      1.62e-12    1.74e-12    1.74e-12    4.50e-12    1.76e-12
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   2.28e+02    2.20e+02    2.25e+02    1.95e+02    2.19e+02
+Cbx:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Ft:       3.32e+08    3.59e+08    5.77e+06    3.47e+08    3.59e+08
+
+                        --- MOSFET Transistors ---
+Name:        m:m1:1      m:m2:1
+Model:       m1:nmos     m2:pmos
+Id:          4.18e-03   -3.01e-11
+Vgs:         1.75e+00   -1.85e+00
+Vds:         1.50e+01   -1.50e+01
+Vbs:         0.00e+00    0.00e+00
+Vth:         1.73e+00   -1.90e+00
+Vdsat:       1.42e-02   -0.00e+00
+Gm:          3.13e-01    0.00e+00
+Gds:         6.33e-03    0.00e+00
+Gmb:         5.47e-01    0.00e+00
+Cbd:         0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00
+Cgsov:       0.00e+00    0.00e+00
+Cgdov:       0.00e+00    0.00e+00
+Cgbov:       0.00e+00    0.00e+00
+Cgs:         3.84e-16    3.84e-16
+Cgd:         0.00e+00    0.00e+00
+Cgb:         0.00e+00    0.00e+00
+
+
+Operating Bias Point Solution:
+V(n012)                    1.99076   voltage
+V(vm)                 -2.03803e-05   voltage
+V(n014)                  -0.678899   voltage
+V(n013)                    1.99075   voltage
+V(vp)                 -8.21961e-10   voltage
+V(n016)                  -0.678878   voltage
+V(vo1)                     12.7056   voltage
+V(vbb)                     2.66756   voltage
+V(n008)                    12.7626   voltage
+V(n006)                     13.319   voltage
+V(n004)                    13.9982   voltage
+V(n005)                    13.9982   voltage
+V(vcc)                          15   voltage
+V(n017)                          0   voltage
+V(vee)                         -15   voltage
+V(vo2)                    -2.50386   voltage
+V(n010)                    13.2496   voltage
+V(n009)                    13.9346   voltage
+V(tp_n)                  0.0419262   voltage
+V(vout)                  0.0417172   voltage
+V(tp_p)                  0.0417172   voltage
+V(ga_n)                    1.79377   voltage
+V(n011)                    -1.1292   voltage
+V(ga_p)                   -1.80886   voltage
+V(n007)                         15   voltage
+V(n019)                   -14.4968   voltage
+V(n015)                   -10.7104   voltage
+V(n018)                   -13.7996   voltage
+V(n020)                   -14.4975   voltage
+V(n003)                    13.9256   voltage
+V(n002)                    14.6208   voltage
+V(n001)                    14.6236   voltage
+V(nc_01)                         0   voltage
+Ic(Q1a)                 0.00249965   device_current
+Ib(Q1a)                8.21959e-06   device_current
+Ie(Q1a)                -0.00250787   device_current
+Ic(Q1b)                 0.00249965   device_current
+Ib(Q1b)                8.21961e-06   device_current
+Ie(Q1b)                -0.00250787   device_current
+Ic(Q2b)                 0.00249206   device_current
+Ib(Q2b)                7.59183e-06   device_current
+Ie(Q2b)                -0.00249965   device_current
+Ic(Q2a)                 0.00249206   device_current
+Ib(Q2a)                7.58788e-06   device_current
+Ie(Q2a)                -0.00249965   device_current
+Ic(Q9)                  0.00259752   device_current
+Ib(Q9)                  8.4656e-06   device_current
+Ie(Q9)                 -0.00260599   device_current
+Ic(Q6a)                 0.00501574   device_current
+Ib(Q6a)                1.64154e-05   device_current
+Ie(Q6a)                -0.00503216   device_current
+Ic(Q6b)                 0.00500763   device_current
+Ib(Q6b)                1.69011e-05   device_current
+Ie(Q6b)                -0.00502453   device_current
+Ic(Q3a)                -0.00249195   device_current
+Ib(Q3a)               -1.24676e-05   device_current
+Ie(Q3a)                 0.00250442   device_current
+Ic(Q4)                -2.48182e-05   device_current
+Ib(Q4)                 -1.1004e-07   device_current
+Ie(Q4)                 2.49283e-05   device_current
+Ic(Q3b)                -0.00249199   device_current
+Ib(Q3b)               -1.24607e-05   device_current
+Ie(Q3b)                 0.00250446   device_current
+Ic(Q5b)                -0.00354781   device_current
+Ib(Q5b)               -1.54423e-05   device_current
+Ie(Q5b)                 0.00356325   device_current
+Ic(Q8)                 -0.00501081   device_current
+Ib(Q8)                 -2.2519e-05   device_current
+Ie(Q8)                  0.00503333   device_current
+Ic(Q5a)               -1.53741e-05   device_current
+Ib(Q5a)               -6.81946e-08   device_current
+Ie(Q5a)                1.54423e-05   device_current
+Ic(Q7a)                -0.00499297   device_current
+Ib(Q7a)               -2.52765e-05   device_current
+Ie(Q7a)                 0.00501825   device_current
+Ic(Q7b)                -0.00503333   device_current
+Ib(Q7b)               -2.26957e-05   device_current
+Ie(Q7b)                 0.00505603   device_current
+I(Cbv)                 3.60263e-17   device_current
+I(Cbe)                 3.56325e-33   device_current
+I(Cbb)                 2.66756e-20   device_current
+I(Cc)                 -1.70914e-24   device_current
+I(Cl)                  4.17172e-20   device_current
+I(Cf)                 -4.17376e-26   device_current
+I(Rz1a)                 0.00250442   device_current
+I(Rz1b)                 0.00250446   device_current
+I(Rta)                   0.0041799   device_current
+I(Rtb)                 2.69638e-10   device_current
+I(Rl)                  -0.00417172   device_current
+I(Rpv1)                 0.00243581   device_current
+I(Rpv2)                 0.00242734   device_current
+I(Rc2)                  0.00357033   device_current
+I(Rf)                 -8.18383e-06   device_current
+I(Rm)                  3.57549e-08   device_current
+I(Rs)                 -8.21961e-06   device_current
+I(Rd2a)                 0.00356325   device_current
+I(Rze1)                 0.00503216   device_current
+I(Rze2)                 0.00502453   device_current
+I(Rpol)                 0.00504094   device_current
+I(Rzc2)                 0.00505603   device_current
+I(Rzc1)                 0.00501825   device_current
+I(Rpbb)                 0.00121806   device_current
+I(Rpba)                 0.00123324   device_current
+I(Rd1b)                 0.00250787   device_current
+I(Rd1a)                -0.00250787   device_current
+I(Rd2b)                 0.00356325   device_current
+I(Vin)                -8.21961e-06   device_current
+I(Vpola)                -0.0240595   device_current
+I(Vpolb)                -0.0186378   device_current
+I(V1)                            0   device_current
+Ix(m1:D)                 0.0041799   subckt_current
+Ix(m1:G)              -1.32164e-11   subckt_current
+Ix(m1:S)                -0.0041799   subckt_current
+Ix(m2:D)               -2.8258e-10   subckt_current
+Ix(m2:G)                1.3201e-11   subckt_current
+Ix(m2:S)               2.69641e-10   subckt_current
+
+Total elapsed time: 0.018 seconds.
+
